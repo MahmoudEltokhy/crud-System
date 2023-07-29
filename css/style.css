@@ -1,0 +1,56 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+
+.head{
+
+    margin-top: 50px;
+}
+
+body{
+
+    background-color: bisque;
+}
+
+::selection{
+
+    background-color: orange ;
+}
+
+.head div{
+    width: 14rem;
+    height: 1.6rem;
+    background-color: orange;
+    margin-inline: auto;
+    position: relative;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.head div h1{
+
+    position: absolute;
+    top: 0%;
+    left: 0;
+
+
+}
+
+.head div:hover{
+
+    height: 2.4rem;
+}
+
+table{
+
+    background-color: #FFF;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
